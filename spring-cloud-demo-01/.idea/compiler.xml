@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-order" />
+        <module name="spring-cloud-order-fegin" />
+        <module name="spring-cloud-order-ribbon" />
+        <module name="spring-cloud-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-euraka" target="1.7" />
+      <module name="spring-cloud-order (1)" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

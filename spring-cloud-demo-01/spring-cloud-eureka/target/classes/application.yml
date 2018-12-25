@@ -1,0 +1,15 @@
+server:
+  port: 8080
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+#      defaultZone: http://localhost:10000/eureka/
+      defaultZone: http://qxj:123@localhost:8080/eureka/
+security:
+  basic:
+    enabled: true  #开启安全配置，需要密码，如果不需要则设置为 false
+  user:
+    name: qxj
+    password: 123

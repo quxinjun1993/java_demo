@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-cloud-user
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://qxj:123@localhost:8080/eureka/
+  instance:
+    prefer-ip-address: true
